@@ -3,12 +3,10 @@
 
 
 int main() {
-    //assign variable name
     int num;
-    //input
+
     printf("");
-    scanf("%d",&n);//% for floating number
-    //output
+    scanf("%d",&n);
     printf("You entered: %d",num);
     return 0;
 }
