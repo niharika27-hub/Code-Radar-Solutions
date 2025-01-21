@@ -9,7 +9,7 @@ int main() {
     printf("");
     scanf("%c",&character);
     //output
-    printf("You entered:%c\n",character);
+    printf("You entered: %c\n",character);
     return 0;
 }
 
