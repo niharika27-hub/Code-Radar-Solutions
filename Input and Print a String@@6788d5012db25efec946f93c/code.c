@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    str name;
+    char name[50];
     //input
     printf("");
-    scanf("%s",str);
+    scanf("%s",name);
     //output
-    printf("You entered: ",str);
+    printf("You entered: ",name);
     return 0;
 }
