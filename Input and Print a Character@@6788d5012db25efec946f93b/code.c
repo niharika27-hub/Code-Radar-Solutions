@@ -4,12 +4,12 @@
 
 int main() {
     //assigning variable
-    char str;
+    char character;
     //assign input
     printf("");
-    scanf("%c",&str);
+    scanf("%c",&character);
     //output
-    printf("You entered:%c\n",str);
+    printf("You entered:%c\n",character);
     return 0;
 }
 
