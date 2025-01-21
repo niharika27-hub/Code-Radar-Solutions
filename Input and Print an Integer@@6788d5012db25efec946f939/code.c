@@ -7,7 +7,7 @@ int main() {
     int num;
     //input
     printf("");
-    scanf("%f",&n);//% for floating number
+    scanf("%f", &n);//% for floating number
     //output
     printf("You entered: ",num);
     return 0;
