@@ -7,5 +7,5 @@ int main() {
       scanf("%f",&num);
       //output
       printf("your entered:%.2f\n",num);
-    return 0;
+      return 0;
 }
