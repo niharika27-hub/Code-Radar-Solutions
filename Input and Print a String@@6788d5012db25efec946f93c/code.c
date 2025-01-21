@@ -4,7 +4,7 @@ int main() {
     char n[50];
     //input
     printf("");
-    scanf("%s",n);
+    scanf("%s",&n);
     //output
     printf("You entered: ",n);
     return 0;
