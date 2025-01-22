@@ -4,9 +4,9 @@
 
 int main() {
     double n1,n2;//double is a datatype 
-    scanf("%f",&n1);
+    scanf("%lf",&n1);//lf used for double type input
     n2=n1*2;
-    printf("You entered: %.4f",n2);
+    printf("You entered: %lf\n",n2);
 
 
     return 0;
