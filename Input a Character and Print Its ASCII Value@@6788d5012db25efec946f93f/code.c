@@ -3,9 +3,9 @@ int main() {
     char c;
     //enter a character
     printf("");
-    scanf("%c",&ch);
+    scanf("%c",&c);
     //in c characters are represented by ascii value when %d
     //ascii value
-    printf("ASCII Value: %d",&ch);
+    printf("ASCII Value: %d",&c);
     return 0;
 }
