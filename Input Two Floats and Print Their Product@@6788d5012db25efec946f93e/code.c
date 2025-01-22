@@ -4,9 +4,9 @@ int main() {
     c=a*b;
     //taking input of two float
     printf("");
-    scanf("%f",&a);
+    scanf("%f.2f",&a);
     printf("");
-    scanf("%f",&b);
+    scanf("%f.2f",&b);
     //print product
     printf("Product: %f.2f ",c);
 
