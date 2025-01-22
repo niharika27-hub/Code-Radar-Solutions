@@ -8,7 +8,8 @@ int main() {
     printf("");
     scanf("%f",&b);
     //print product
-    printf("Product: %f.2f ",c);
+    printf("Product: %.2f ",c);
+    return 0;
 
 
 
