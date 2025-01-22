@@ -6,6 +6,6 @@ int main() {
     scanf("%c",&c);
     //in c characters are represented by ascii value when %d
     //ascii value
-    printf("ASCII Value: %d",&c);
+    printf("ASCII Value: %d",c);
     return 0;
 }
