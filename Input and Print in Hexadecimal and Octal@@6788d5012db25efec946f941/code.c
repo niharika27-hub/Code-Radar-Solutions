@@ -5,10 +5,10 @@
 int main() {
   int num;
   //input a number
-  scanf("%X",&num);//X for hexadecimal
+  scanf("%d",&num);//X for hexadecimal ,o for octal
   //output
-  printf("Hexadecimal: %d\n",num);
-  printf("Octal: %d\n",num);
+  printf("Hexadecimal: %X\n",num);
+  printf("Octal: %O\n",num);
 
   return 0;
 }
