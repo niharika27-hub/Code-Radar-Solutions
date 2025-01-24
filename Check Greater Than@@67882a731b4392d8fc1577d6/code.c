@@ -8,7 +8,7 @@ int main() {
        printf("true/n");
     }
     else{
-        printf("false\n")
+        printf("false\n");
     }
     return 0;
 }
