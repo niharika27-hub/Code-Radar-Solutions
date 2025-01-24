@@ -5,7 +5,7 @@ int main() {
     scanf("%d\n",&num1);
     scanf("%d\n",&num2);
     if(num1>num2){
-       printf("True/n");
+       printf("True\n");
     }
     else{
         printf("False\n");
