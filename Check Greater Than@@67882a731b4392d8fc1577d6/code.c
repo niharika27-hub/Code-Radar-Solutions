@@ -4,6 +4,11 @@ int main() {
     int num2;
     scanf("%d\n",&num1);
     scanf("%d\n",&num2);
-    printf("%d\n",num1>=num2);
+    if(num1>num2){
+       printf("true/n");
+    }
+    else{
+        printf("false\n")
+    }
     return 0;
 }
