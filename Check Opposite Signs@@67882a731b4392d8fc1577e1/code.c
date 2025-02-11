@@ -7,10 +7,10 @@ int main() {
     if((num1<0 && num2>0) || (num1>0 && num2<0)){
         printf("True");
     }
-    else if (((num1=0 && num2<0) || (num1<0 && num2=0)){
+    else if ((num1=0 && num2<0) || (num1<0 && num2=0)){
         printf("True");
-    })
-else{
+    }
+    else{
     printf("\nFalse");
 }
    
