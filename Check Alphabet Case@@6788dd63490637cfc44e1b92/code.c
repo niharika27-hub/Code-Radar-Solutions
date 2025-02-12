@@ -3,7 +3,7 @@
 int main(){
     char c;
     scanf("%c",&c);
-    printf("%c",c);
+    
     if(c>= 'A' && c<='Z'){
         printf("Uppercase");
     }
