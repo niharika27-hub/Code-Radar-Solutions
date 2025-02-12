@@ -5,11 +5,11 @@ int num1,num2;
   
 int main() {
     scanf("%d %d",&num1,&num2);
-    if(num1%2==0){
-        printf("Even");
+    if(num1>num2){
+        printf("%d",&num1);
     }
     else{
-        printf("Odd");
+        printf("%d",&num2);
     }
     
     return 0;
