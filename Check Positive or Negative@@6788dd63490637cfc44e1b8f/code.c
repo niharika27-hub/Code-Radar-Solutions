@@ -12,4 +12,5 @@
     else{
         printf("Zero");
     }
+    return 0;
  }
