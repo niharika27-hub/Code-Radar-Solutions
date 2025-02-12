@@ -2,7 +2,7 @@
 #include <stdio.h>
  int main{
     int num;
-    scanf ("%d",&num)
+    scanf ("%d",&num);
     if(num1>0){
         printf("Positive");
     }
@@ -10,6 +10,6 @@
         printf("Negative");
     }
     else{
-        printf("Zero")
+        printf("Zero");
     }
  }
