@@ -1,4 +1,5 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
  int main(){
     int num1,num2;
     char operator;
