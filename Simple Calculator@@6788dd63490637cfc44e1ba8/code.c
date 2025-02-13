@@ -4,15 +4,15 @@
     int num1,num2;
     char operator;
     scanf ("%d %d",&num1 ,&num2);
-    scanf(" %c",&operator)
+    scanf("%c",&operator)
     switch(operator){
-        case +:printf(num1 + num2);
+        case '+':printf(num1 + num2);
         break;
-        case -:printf(num1-num2);
+        case '-':printf(num1-num2);
         break;
-        case *:printf(num1*num2);
+        case '*':printf(num1*num2);
         break;
-        case /:printf(num1/num2);
+        case '/':printf(num1/num2);
         break;
        
     }
