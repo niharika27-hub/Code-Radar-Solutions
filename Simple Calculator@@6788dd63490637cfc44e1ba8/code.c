@@ -19,7 +19,7 @@
         printf("%d",num1/num2);
         }
         else{
-            printf("error")
+            printf("error");
         }
         break;
        
