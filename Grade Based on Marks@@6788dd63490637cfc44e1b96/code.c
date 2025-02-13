@@ -5,7 +5,7 @@
     
     scanf ("%d ",&grade);
    if(grade>=90){
-    printf('A');
+    printf("%c",'A');
    }
 //    else if(grade>=80 && grade<90){
 //     printf('B');
