@@ -15,7 +15,7 @@
         printf("%d",num1*num2);
         break;
         case '/':
-        printf("%d",num1/num2);
+        printf("%f",num1/num2);
         break;
        
     }
