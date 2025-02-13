@@ -16,7 +16,7 @@
         break;
         case '/':
         if (num2!=0){
-        printf("%f",num1/num2);
+        printf("%d",num1/num2);
         }
         break;
        
