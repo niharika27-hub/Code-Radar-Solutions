@@ -15,7 +15,7 @@
    }
    
    else{
-    printf("Invalid grade");
+    printf("Invalid input");
    }
    
    
