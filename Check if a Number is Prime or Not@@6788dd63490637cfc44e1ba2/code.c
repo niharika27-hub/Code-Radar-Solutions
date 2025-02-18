@@ -13,7 +13,7 @@ int main(){
    else if(num % 2==0){
     printf("Not Prime");
    }
-   for(int i=3,i<=sqrt(num);i+=2){
+   for(int i=3;i<=sqrt(num);i+=2){
     if(n%i==0);
     printf("Not a prime");
    }
