@@ -9,5 +9,8 @@ int main(){
    else if(num==2){
     printf("Prime");
    }
+   else if(num % 2==0){
+    printf("Not Prime");
+   }
   
 }
