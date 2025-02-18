@@ -7,5 +7,8 @@ int main(){
    if(num1==num2*num2){
     printf("Yes");
    }
+   else{
+    print("NO")
+   }
   
 }
