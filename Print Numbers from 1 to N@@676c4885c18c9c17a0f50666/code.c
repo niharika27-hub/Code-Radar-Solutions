@@ -6,7 +6,7 @@ int main() {
      
       scanf("%d",&num);
       while(i<=num){
-        printf("%d",&num);
+        printf("%d",i);
         i++;
       }
      
