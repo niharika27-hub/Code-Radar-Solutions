@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-   int num,i;
+   int num,i=0;
    scanf("%d",&num);
    if(num==0 || num==1){
     printf("Not Prime");
