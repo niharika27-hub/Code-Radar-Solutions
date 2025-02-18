@@ -7,7 +7,7 @@ int main() {
      while(i<=9){
         
         i++;
-        printf(" %d x %d =%d\n",num,i,num*i);
+        printf(" %d x %d = %d\n",num,i,num*i);
      }
      
       return 0;
