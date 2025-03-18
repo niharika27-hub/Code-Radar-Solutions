@@ -12,8 +12,8 @@ void countEvenOdd(int arr[], int n) {
         }
     }
 
-    printf("%d\n", evenCount);
-    printf("%d\n", oddCount);
+    printf("%d", evenCount);
+    printf(" %d", oddCount);
 }
 
 int main() {
