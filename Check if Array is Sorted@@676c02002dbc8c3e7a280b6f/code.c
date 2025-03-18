@@ -20,9 +20,9 @@ int main() {
     }
 
     if (isSorted(arr, n)) {
-        printf("Array is sorted\n");
+        printf("sorted\n");
     } else {
-        printf("Array is not sorted\n");
+        printf("not sorted\n");
     }
 
     return 0;
