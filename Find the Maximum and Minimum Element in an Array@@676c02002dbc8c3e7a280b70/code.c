@@ -8,9 +8,7 @@ int arr[n];
 for(int i=0;i<n;i++){
     scanf(" %d",&arr[i]);
 }
-for(int i=0;i<n;i++){
-    printf("%d ", arr[i]);
-}
+
 
 // Initialize max and min with the first element
     int max = arr[0];
@@ -28,7 +26,7 @@ for(int i=0;i<n;i++){
     
 
     // Print max and min values
-    printf("%d %d", max, min);
+    printf("%d %d", min, max);
 
     return 0;
 }
