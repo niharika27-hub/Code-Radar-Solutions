@@ -32,7 +32,7 @@ int main() {
     int peak = findFirstPeak(arr, n);
     
     if (peak != -1) {
-        printf("First peak element: %d\n", peak);
+        printf("%d\n", peak);
     } else {
         printf("No peak element found\n");
     }
