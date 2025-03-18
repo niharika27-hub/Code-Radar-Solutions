@@ -34,8 +34,8 @@ int main() {
     if (peak != -1) {
         printf("%d\n", peak);
     } else {
-        printf("No peak element found\n");
-    }
+        printf("-1");
+    }                                           
 
     return 0;
 }
