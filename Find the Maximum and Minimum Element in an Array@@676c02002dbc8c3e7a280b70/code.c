@@ -27,7 +27,7 @@ for(int i=0;i<n;i++){
     
 
     // Print max and min values
-    printf("\nMax: %d\nMin: %d\n", max, min);
+    printf("%d %d", max, min);
 
     return 0;
 }
