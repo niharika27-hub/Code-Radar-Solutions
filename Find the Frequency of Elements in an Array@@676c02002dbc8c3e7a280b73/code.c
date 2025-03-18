@@ -16,7 +16,7 @@ void findFrequency(int arr[], int n) {
             }
         }
 
-        printf("%d %d times\n", arr[i], count);
+        printf("%d %d\n", arr[i], count);
     }
 }
 
