@@ -14,7 +14,7 @@ for(int i=0;i<n;i++){
        
     }
      printf("Sorted");
-  else{
+  else {
     printf("\nNot Sorted");
   }
 }
