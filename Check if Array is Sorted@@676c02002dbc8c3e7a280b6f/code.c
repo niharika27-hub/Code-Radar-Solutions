@@ -15,7 +15,7 @@ for(int i=0;i<n-1;i++){
        break;
     }
      
-  intf("\nNot Sorted");
+  int("\nNot Sorted");
   
 }
 if (Sorted)
