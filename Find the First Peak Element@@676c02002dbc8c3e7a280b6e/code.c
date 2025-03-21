@@ -12,11 +12,12 @@ int main() {
           printf("%d",arr[i]) ;
           break;
        }
-       else{
-
-          printf("-1");}
        
-    }                                        
+       
+    }  
+    else{
+
+          printf("-1");}                                      
 
     return 0;
 }
