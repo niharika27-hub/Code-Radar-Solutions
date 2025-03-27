@@ -16,10 +16,11 @@ int main() {
  //compare arrays 
 
  for(int i=0;i<n;i++){
-    if(arr[i]==rev[i]) 
+    if(arr[i]!=rev[i]) 
+    printf("NO");
+    return 0;
+    
  }
 printf("YES");
-
-else {printf("NO");}
  return 0;
 }
