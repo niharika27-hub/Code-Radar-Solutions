@@ -13,7 +13,7 @@ int main() {
         ++j;
         
     }
- compare arrays 
+ //compare arrays 
 
  for(int i=0;i<n;i++){
     if(arr[i]==rev[i]) printf("YES");
