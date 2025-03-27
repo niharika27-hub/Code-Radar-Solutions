@@ -20,6 +20,6 @@ int main() {
  }
 printf("YES");
 
-else NO;
+else {printf("NO")}
  return 0;
 }
