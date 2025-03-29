@@ -9,17 +9,26 @@ int arr[n];
    for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
    }
-
+//max value
 
 for(int i=0;i<n;i++){
-    max=arr[0];
+    max=arr[0];//compare all with 0th element
    if(max<arr[i]){
     max=arr[i];
     
    }
    }
    printf("%d",max);
+int sec_max;
 
+for(int i=0;i<n;i++){
+    sec_max=arr[0];
+  if(sec_max<arr[i] && sec_max<max)
+   sec_max=arr[i];
+    
+   }
+   
+   printf("%d",sec_max);
 
 
 
