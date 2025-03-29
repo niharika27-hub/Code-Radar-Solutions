@@ -23,7 +23,7 @@ int sec_max;
 
 for(int i=1;i<n;i++){
     sec_max=arr[0];
-  if(arr[i]<max && arr[i]<sec_max)
+  if(arr[i]<max && arr[i]>sec_max)
    sec_max=arr[i];
     
    }
