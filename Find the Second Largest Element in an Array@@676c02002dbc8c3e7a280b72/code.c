@@ -18,7 +18,7 @@ for(int i=0;i<n;i++){
    printf("%d",arr[0]);
 
 for(int i=0;i<n;i++){
-    max=arr[0]
+    max=arr[0];
    if(max<arr[i]){
     max=arr[i];
     
