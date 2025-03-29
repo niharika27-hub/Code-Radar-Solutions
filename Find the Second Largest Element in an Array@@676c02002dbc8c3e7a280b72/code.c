@@ -20,9 +20,10 @@ for(int i=0;i<n;i++){
    }
   
 int sec_max;
+sec_max=arr[0];
 
 for(int i=1;i<n;i++){
-    sec_max=arr[0];
+    
   if(arr[i]<max && arr[i]>sec_max)
    sec_max=arr[i];
 
