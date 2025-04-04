@@ -20,11 +20,12 @@ for(int i=0;i<n;i++){
    }
   
 int sec_max;
-if(arr[0]!=max && n!=1){
-sec_max=arr[0];}
-else{
+if(arr[0]==max && n==1){
     printf("-1");
     return 0;
+}
+else{
+    sec_max=arr[0];
 }
 for(int i=1;i<n;i++){
     
