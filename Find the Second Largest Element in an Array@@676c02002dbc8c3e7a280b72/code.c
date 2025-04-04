@@ -26,7 +26,7 @@ else{
     printf("-1");
     return 0;
 }
-
+printf("%d",max);
 for(int i=1;i<n;i++){
     
   if(arr[i]<max && arr[i]>sec_max  )
