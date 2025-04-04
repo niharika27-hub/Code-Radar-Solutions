@@ -17,7 +17,7 @@ int main() {
         printf("%d",arr[i]);
       }
       for(int i=0;i<=n-k-1;i++){
-        printf("%d",arr[i]);
+        printf("\n%d",arr[i]);
       }
 
 
