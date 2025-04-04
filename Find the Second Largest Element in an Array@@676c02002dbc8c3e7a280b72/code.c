@@ -20,13 +20,20 @@ for(int i=0;i<n;i++){
    }
   
 int sec_max;
-if(arr[0]==max && n==1){
+int c=0;
+for(int i=0;i<n;i++){
+    if(arr[i]!=max){
+        sec_max=arr[i];
+        c=1;
+        break;
+    }
+}
+
+if(c==0){
     printf("-1");
     return 0;
 }
-else{
-    sec_max=arr[0];
-}
+
 for(int i=1;i<n;i++){
     
   if(arr[i]<max && arr[i]>sec_max  )
