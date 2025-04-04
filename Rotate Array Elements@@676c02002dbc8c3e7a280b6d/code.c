@@ -14,10 +14,10 @@ int main() {
       }
       scanf("%d",&k);
       for(int i=n-k;i<n;i++){
-        printf("%d",arr[i]);
+        printf("\n%d",arr[i]);
       }
       for(int i=0;i<=n-k-1;i++){
-        printf("\n%d",arr[i]);
+        printf("%d",arr[i]);
       }
 
 
