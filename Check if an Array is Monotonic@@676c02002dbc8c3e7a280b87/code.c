@@ -13,10 +13,10 @@ int main(){
            
             
          }
-        printf("YES");
+        
     }
     
-    
+    printf("YES");
 
 
     return 0;
