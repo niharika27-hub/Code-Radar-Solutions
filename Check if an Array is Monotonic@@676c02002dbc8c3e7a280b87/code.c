@@ -11,14 +11,18 @@ int main(){
          if(arr[i]<arr[i+1]){
             i++;
            
-            
+           
          }
-        
+          if(arr[i]<arr[i+1]){
+            i++;
+         printf("YES");
+    }
+    else{
+        printf("NO");
     }
     
-    printf("YES");
 
-    else {printf("NO");}
+    
 
 
     return 0;
