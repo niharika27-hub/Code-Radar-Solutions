@@ -10,7 +10,7 @@ int main(){
          scanf("%d",&arr[i]);
          if(arr[i]<arr[i+1]){
             i++;
-            continue;
+           
             
          }
         printf("YES");
