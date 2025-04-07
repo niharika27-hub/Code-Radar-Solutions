@@ -18,6 +18,8 @@ int main(){
     
     printf("YES");
 
+    else {printf("NO");}
+
 
     return 0;
 }
