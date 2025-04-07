@@ -3,7 +3,6 @@
 
 // Function to check if a number is prime
 int isPrime(int num) {
-    printf("\n%d ",num);
     if (num < 2) return 0;
     for (int i = 2; i < num; i++) {
         if (num % i == 0)
@@ -27,13 +26,12 @@ int main() {
 
     // Check for prime numbers
     for (int i = 0; i < n; i++) {
-        printf("%d",isPrime(arr[i]));
         if (isPrime(arr[i])) {
             primeCount++;
         }
     }
 
-    printf("Number of prime numbers: %d\n", primeCount);
+    printf("%d\n", primeCount);
 
     return 0;
 }
