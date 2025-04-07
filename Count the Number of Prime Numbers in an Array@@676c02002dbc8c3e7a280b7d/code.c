@@ -20,14 +20,13 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    for (int i = 0; i < n; i++) {
-        printf("%d",arr[i]);
-    }
+   
 
     int primeCount = 0;
 
     // Check for prime numbers
     for (int i = 0; i < n; i++) {
+        ptintf("%d",isPrime(arr[i]));
         if (isPrime(arr[i])) {
             primeCount++;
         }
