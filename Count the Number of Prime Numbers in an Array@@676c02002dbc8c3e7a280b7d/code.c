@@ -26,7 +26,7 @@ int main() {
 
     // Check for prime numbers
     for (int i = 0; i < n; i++) {
-        ptintf("%d",isPrime(arr[i]));
+        printf("%d",isPrime(arr[i]));
         if (isPrime(arr[i])) {
             primeCount++;
         }
