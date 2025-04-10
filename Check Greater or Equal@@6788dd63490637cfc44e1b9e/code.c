@@ -14,7 +14,9 @@ int main() {
     else if(side1 < side2){
         printf("No");
     }
-   
+   else{
+    printf("Yes");
+   }
     
     return 0;
 }
