@@ -1,9 +1,10 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
 int main() {
     int cost;
-    scanf("%d",&cost);
+    scanf("%d", &cost);
     int sell;
-    scanf("%d",&sell);
+    scanf("%d", &sell);
     if(cost>sell){
         printf("Loss");
     }
