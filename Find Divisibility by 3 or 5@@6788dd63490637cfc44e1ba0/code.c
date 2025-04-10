@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&num1);
     scanf("%d",&num2);
     if(num1 % 3 == 0 && num2 % 5 == 0) {
-        printf("Divisible by Both")
+        printf("Divisible by Both");
     }
     else if (num1 % 3 != 0 && num2 % 5 == 0) {
         printf("Divisible by 5");
@@ -19,7 +19,7 @@ int main() {
     
     
     else {
-        printf("Different Sign");
+        printf("Not Divisible");
     }
     
     return 0;
