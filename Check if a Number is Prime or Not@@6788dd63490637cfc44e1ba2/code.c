@@ -1,28 +1,27 @@
-// Your code here...
 #include <stdio.h>
-#include <math.h>
-int main(){
-   int num,i=0;
-   scanf("%d",&num);
-   if(num==0 || num==1){
-    printf("Not Prime");
-   }
-   else if(num==2){
-    printf("Prime");
-   }
-   else if(num % 2==0){
-    printf("Not Prime");
-   }
-   else{
-   for(int i=3;i<=sqrt(num);i+=2){
-    if(num%i==0){
-    printf("Not a prime");
-   }
-   else{
-    printf("Prime");
+
+int main() {
+    int num, i, isPrime = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num <= 1) {
+        isPrime = 0;
+    } else {
+        for (i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
     }
-   }
-   }
- 
-   }
-  
+
+    if (isPrime) {
+        printf("%d is a prime number.\n", num);
+    } else {
+        printf("%d is not a prime number.\n", num);
+    }
+
+    return 0;
+}
